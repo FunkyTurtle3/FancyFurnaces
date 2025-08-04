@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "i": "minecraft:furnace",
+    "X": "minecraft:bricks",
+    "x": "minecraft:brick"
+  },
+  "pattern": [
+    "III",
+    "xix",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fancyfurnaces:brick_furnace"
+  }
+}

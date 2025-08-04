@@ -1,0 +1,10 @@
+{
+  "type": "fancyfurnaces:brick_furnace_recipe",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": "minecraft:netherrack",
+  "result": {
+    "id": "minecraft:nether_brick"
+  }
+}
