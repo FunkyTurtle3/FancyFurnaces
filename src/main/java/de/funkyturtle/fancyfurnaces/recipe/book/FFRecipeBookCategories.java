@@ -14,6 +14,12 @@ public class FFRecipeBookCategories {
     public static final Supplier<RecipeBookCategory> BRICK_FURNACE_MISC_CATEGORY = RECIPE_BOOK_CATEGORY.register("brick_furnace_misc_category", RecipeBookCategory::new);
     public static final Supplier<RecipeBookCategory> BRICK_FURNACE_BLOCKS_CATEGORY = RECIPE_BOOK_CATEGORY.register("brick_furnace_blocks_category", RecipeBookCategory::new);
 
+    public static final Supplier<RecipeBookCategory> STONE_FURNACE_MISC_CATEGORY = RECIPE_BOOK_CATEGORY.register("stone_furnace_misc_category", RecipeBookCategory::new);
+    public static final Supplier<RecipeBookCategory> STONE_FURNACE_BLOCKS_CATEGORY = RECIPE_BOOK_CATEGORY.register("stone_furnace_blocks_category", RecipeBookCategory::new);
+
+    public static final Supplier<RecipeBookCategory> SPONGE_DRYER_BLOCKS_CATEGORY = RECIPE_BOOK_CATEGORY.register("sponge_dryer_blocks_category", RecipeBookCategory::new);
+
+
     public static void register(IEventBus eventBus) {
         RECIPE_BOOK_CATEGORY.register(eventBus);
     }

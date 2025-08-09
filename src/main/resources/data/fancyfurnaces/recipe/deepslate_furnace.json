@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": "minecraft:cobbled_deepslate"
+  },
+  "pattern": [
+    "III",
+    "III",
+    "I I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fancyfurnaces:deepslate_furnace"
+  }
+}

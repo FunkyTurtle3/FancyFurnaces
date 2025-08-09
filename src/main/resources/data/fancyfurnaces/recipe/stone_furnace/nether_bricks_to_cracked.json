@@ -1,0 +1,10 @@
+{
+  "type": "fancyfurnaces:stone_furnace_recipe",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": "minecraft:nether_bricks",
+  "result": {
+    "id": "minecraft:cracked_nether_bricks"
+  }
+}

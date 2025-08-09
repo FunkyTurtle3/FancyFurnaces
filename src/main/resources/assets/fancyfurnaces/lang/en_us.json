@@ -1,4 +1,14 @@
 {
-  "fancyfurnace.blockentity.name.brick_furnace": "Brick Furnace",
-  "item.fancyfurnaces.brick_furnace": "Brick Furnace"
+  "blockentity.fancyfurnaces.name.brick_furnace": "Brick Furnace",
+  "blockentity.fancyfurnaces.name.stone_furnace": "Stone Kiln",
+  "blockentity.fancyfurnaces.name.sponge_dryer": "Sponge Dryer",
+  "item.fancyfurnaces.brick_furnace": "Brick Furnace",
+  "item.fancyfurnaces.stone_furnace": "Stone Kiln",
+  "item.fancyfurnaces.sponge_dryer": "Sponge Dryer",
+  "item.fancyfurnaces.blackstone_furnace": "Blackstone Furnace",
+  "item.fancyfurnaces.granite_furnace": "Granite Furnace",
+  "item.fancyfurnaces.diorite_furnace": "Diorite Furnace",
+  "item.fancyfurnaces.deepslate_furnace": "Deepslate Furnace",
+  "creativetab.fancyfurnaces.fancyfurnaces" : "Fancy Furnaces",
+  "container.fancyfurnaces.blackstone_furnace": "Blackstone Furnace"
 }

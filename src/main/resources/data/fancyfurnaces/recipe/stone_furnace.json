@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": "minecraft:furnace",
+    "i": "minecraft:smooth_stone",
+    "X": "minecraft:stone_bricks",
+    "x": "minecraft:iron_trapdoor"
+  },
+  "pattern": [
+    "XxX",
+    "XIX",
+    "iii"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fancyfurnaces:stone_furnace"
+  }
+}

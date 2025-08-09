@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "fancyfurnaces:block/sponge_dryer_side_on",
+    "side": "fancyfurnaces:block/sponge_dryer_side_on",
+    "top": "fancyfurnaces:block/sponge_dryer_top_on",
+    "bottom": "minecraft:block/dark_prismarine"
+  }
+}

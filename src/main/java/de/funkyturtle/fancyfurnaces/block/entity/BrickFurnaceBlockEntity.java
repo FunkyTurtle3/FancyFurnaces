@@ -13,14 +13,13 @@ import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.NotNull;
 
 public class BrickFurnaceBlockEntity extends AbstractFurnaceBlockEntity {
-
     public BrickFurnaceBlockEntity(BlockPos pos, BlockState blockState) {
         super(FFBlockEntity.BRICK_FURNACE_TYPE.get(), pos, blockState, FFRecipeTypes.BRICK_FURNACE_RECIPE.get());
     }
 
     @Override
     public @NotNull Component getDefaultName() {
-        return Component.translatable("fancyfurnace.blockentity.name.brick_furnace");
+        return Component.translatable("blockentity.fancyfurnaces.name.brick_furnace");
     }
 
     protected int getBurnDuration(@NotNull FuelValues values, @NotNull ItemStack itemStack) {

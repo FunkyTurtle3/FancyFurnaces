@@ -1,4 +1,14 @@
 {
-  "fancyfurnace.blockentity.name.brick_furnace": "Ziegelbrenner",
-  "item.fancyfurnaces.brick_furnace": "Ziegelbrenner"
+  "blockentity.fancyfurnaces.name.brick_furnace": "Ziegelbrenner",
+  "blockentity.fancyfurnaces.name.stone_furnace": "Steinbrenner",
+  "blockentity.fancyfurnaces.name.sponge_dryer": "Schwammtrockner",
+  "item.fancyfurnaces.brick_furnace": "Ziegelbrenner",
+  "item.fancyfurnaces.stone_furnace": "Steinbrenner",
+  "item.fancyfurnaces.sponge_dryer": "Schwammtrockner",
+  "item.fancyfurnaces.blackstone_furnace": "Schwarzsteinofen",
+  "item.fancyfurnaces.granite_furnace": "Granitofen",
+  "item.fancyfurnaces.diorite_furnace": "Dioritofen",
+  "item.fancyfurnaces.deepslate_furnace": "Tiefenschieferofen",
+  "creativetab.fancyfurnaces.fancyfurnaces": "Fancy Furnaces",
+  "container.fancyfurnaces.blackstone_furnace": "Blackstone Furnace"
 }

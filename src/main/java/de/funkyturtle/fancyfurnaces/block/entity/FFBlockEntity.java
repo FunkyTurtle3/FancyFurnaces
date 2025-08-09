@@ -16,8 +16,22 @@ public class FFBlockEntity {
 
     public static final Supplier<BlockEntityType<BrickFurnaceBlockEntity>> BRICK_FURNACE_TYPE =
             BLOCK_ENTITY_TYPES.register("brick_furnace_type", () -> {
-                var block = FFBlocks.BRICK_FURNACE.get();
-                return new BlockEntityType<>(BrickFurnaceBlockEntity::new, Set.of(block));
+                return new BlockEntityType<>(BrickFurnaceBlockEntity::new, Set.of(FFBlocks.BRICK_FURNACE.get()));
+            });
+
+    public static final Supplier<BlockEntityType<StoneFurnaceBlockEntity>> STONE_FURNACE_TYPE =
+            BLOCK_ENTITY_TYPES.register("stone_furnace_type", () -> {
+                return new BlockEntityType<>(StoneFurnaceBlockEntity::new, Set.of(FFBlocks.STONE_FURNACE.get()));
+            });
+
+    public static final Supplier<BlockEntityType<SpongeDryerBlockEntity>> SPONGE_DRYER_TYPE =
+            BLOCK_ENTITY_TYPES.register("sponge_dryer_type", () -> {
+                return new BlockEntityType<>(SpongeDryerBlockEntity::new, Set.of(FFBlocks.SPONGE_DRYER.get()));
+            });
+
+    public static final Supplier<BlockEntityType<FFFurnaceBlockEntity>> FURNACE_TYPE =
+            BLOCK_ENTITY_TYPES.register("furnace_type", () -> {
+                return new BlockEntityType<>(FFFurnaceBlockEntity::new, Set.of(FFBlocks.BLACKSTONE_FURNACE.get(), FFBlocks.GRANITE_FURNACE.get(), FFBlocks.DIORITE_FURNACE.get(), FFBlocks.DEEPSLATE_FURNACE.get()));
             });
 
     public static void register(IEventBus eventBus) {

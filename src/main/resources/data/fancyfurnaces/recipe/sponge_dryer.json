@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": "minecraft:prismarine_shard",
+    "i": "minecraft:furnace",
+    "X": "minecraft:dark_prismarine",
+    "x": "minecraft:prismarine_bricks"
+  },
+  "pattern": [
+    "III",
+    "xix",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fancyfurnaces:sponge_dryer"
+  }
+}

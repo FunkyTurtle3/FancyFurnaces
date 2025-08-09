@@ -37,7 +37,6 @@ public class BrickFurnaceBlock extends AbstractFurnaceBlock {
             player.openMenu((MenuProvider) blockentity);
             player.awardStat(Stats.INTERACT_WITH_FURNACE);
         }
-
     }
 
     @javax.annotation.Nullable

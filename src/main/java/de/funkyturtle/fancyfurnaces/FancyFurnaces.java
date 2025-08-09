@@ -3,12 +3,16 @@ package de.funkyturtle.fancyfurnaces;
 import com.mojang.logging.LogUtils;
 import de.funkyturtle.fancyfurnaces.block.FFBlocks;
 import de.funkyturtle.fancyfurnaces.block.entity.FFBlockEntity;
+import de.funkyturtle.fancyfurnaces.creativetab.FFCreativeTab;
 import de.funkyturtle.fancyfurnaces.item.FFItem;
 import de.funkyturtle.fancyfurnaces.menu.FFMenuTypes;
+import de.funkyturtle.fancyfurnaces.menu.custom.StoneFurnaceMenu;
 import de.funkyturtle.fancyfurnaces.recipe.FFRecipeSerializers;
 import de.funkyturtle.fancyfurnaces.recipe.FFRecipeTypes;
 import de.funkyturtle.fancyfurnaces.recipe.book.FFRecipeBookCategories;
 import de.funkyturtle.fancyfurnaces.screen.BrickFurnaceScreen;
+import de.funkyturtle.fancyfurnaces.screen.SpongeDryerScreen;
+import de.funkyturtle.fancyfurnaces.screen.StoneFurnaceScreen;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -38,6 +42,7 @@ public class FancyFurnaces {
         FFRecipeTypes.register(modEventBus);
         FFRecipeSerializers.register(modEventBus);
         FFRecipeBookCategories.register(modEventBus);
+        FFCreativeTab.register(modEventBus);
 
        NeoForge.EVENT_BUS.register(this);
     }
@@ -59,6 +64,9 @@ public class FancyFurnaces {
         @SubscribeEvent
         public static void registerScreens(RegisterMenuScreensEvent event) {
             event.register(FFMenuTypes.BRICK_FURNACE_MENU.get(), BrickFurnaceScreen::new);
+            event.register(FFMenuTypes.STONE_FURNACE_MENU.get(), StoneFurnaceScreen::new);
+            event.register(FFMenuTypes.SPONGE_DRYER_MENU.get(), SpongeDryerScreen::new);
+
         }
     }
 }

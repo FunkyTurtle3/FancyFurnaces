@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": "minecraft:granite"
+  },
+  "pattern": [
+    "III",
+    "I I",
+    "III"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fancyfurnaces:granite_furnace"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "fancyfurnaces:block/stone_furnace_side_on",
+    "side": "fancyfurnaces:block/stone_furnace_side_on",
+    "top": "fancyfurnaces:block/stone_furnace_top_on",
+    "bottom": "minecraft:block/blast_furnace_top"
+  }
+}
