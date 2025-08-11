@@ -2,6 +2,7 @@ package de.funkyturtle.fancyfurnaces.recipe;
 
 import de.funkyturtle.fancyfurnaces.FancyFurnaces;
 import de.funkyturtle.fancyfurnaces.recipe.custom.BrickFurnaceRecipe;
+import de.funkyturtle.fancyfurnaces.recipe.custom.GlassFurnaceRecipe;
 import de.funkyturtle.fancyfurnaces.recipe.custom.SpongeDryerRecipe;
 import de.funkyturtle.fancyfurnaces.recipe.custom.StoneFurnaceRecipe;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -34,6 +35,14 @@ public class FFRecipeTypes {
                 @Override
                 public String toString() {
                     return "sponge_dryer_recipe";
+                }
+            });
+
+    public static final DeferredHolder<RecipeType<?>, RecipeType<GlassFurnaceRecipe>> GLASS_FURNACE_RECIPE = RECIPE_TYPES.register("glass_furnace_recipe",
+            () -> new RecipeType<>() {
+                @Override
+                public String toString() {
+                    return "glass_furnace_recipe";
                 }
             });
 

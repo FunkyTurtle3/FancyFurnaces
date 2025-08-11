@@ -22,6 +22,7 @@ public class FFCreativeTab {
                 output.accept(FFBlocks.BRICK_FURNACE);
                 output.accept(FFBlocks.STONE_FURNACE);
                 output.accept(FFBlocks.SPONGE_DRYER);
+                output.accept(FFBlocks.GLASS_FURNACE);
                 output.accept(FFBlocks.GRANITE_FURNACE);
                 output.accept(FFBlocks.DIORITE_FURNACE);
                 output.accept(FFBlocks.DEEPSLATE_FURNACE);

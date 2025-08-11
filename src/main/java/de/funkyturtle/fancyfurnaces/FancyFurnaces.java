@@ -6,11 +6,11 @@ import de.funkyturtle.fancyfurnaces.block.entity.FFBlockEntity;
 import de.funkyturtle.fancyfurnaces.creativetab.FFCreativeTab;
 import de.funkyturtle.fancyfurnaces.item.FFItem;
 import de.funkyturtle.fancyfurnaces.menu.FFMenuTypes;
-import de.funkyturtle.fancyfurnaces.menu.custom.StoneFurnaceMenu;
 import de.funkyturtle.fancyfurnaces.recipe.FFRecipeSerializers;
 import de.funkyturtle.fancyfurnaces.recipe.FFRecipeTypes;
 import de.funkyturtle.fancyfurnaces.recipe.book.FFRecipeBookCategories;
 import de.funkyturtle.fancyfurnaces.screen.BrickFurnaceScreen;
+import de.funkyturtle.fancyfurnaces.screen.GlassFurnaceScreen;
 import de.funkyturtle.fancyfurnaces.screen.SpongeDryerScreen;
 import de.funkyturtle.fancyfurnaces.screen.StoneFurnaceScreen;
 import net.neoforged.api.distmarker.Dist;
@@ -66,7 +66,7 @@ public class FancyFurnaces {
             event.register(FFMenuTypes.BRICK_FURNACE_MENU.get(), BrickFurnaceScreen::new);
             event.register(FFMenuTypes.STONE_FURNACE_MENU.get(), StoneFurnaceScreen::new);
             event.register(FFMenuTypes.SPONGE_DRYER_MENU.get(), SpongeDryerScreen::new);
-
+            event.register(FFMenuTypes.GLASS_FURNACE_MENU.get(), GlassFurnaceScreen::new);
         }
     }
 }

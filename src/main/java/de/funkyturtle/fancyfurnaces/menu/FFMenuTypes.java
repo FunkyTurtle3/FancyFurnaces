@@ -2,6 +2,7 @@ package de.funkyturtle.fancyfurnaces.menu;
 
 import de.funkyturtle.fancyfurnaces.FancyFurnaces;
 import de.funkyturtle.fancyfurnaces.menu.custom.BrickFurnaceMenu;
+import de.funkyturtle.fancyfurnaces.menu.custom.GlassFurnaceMenu;
 import de.funkyturtle.fancyfurnaces.menu.custom.SpongeDryerMenu;
 import de.funkyturtle.fancyfurnaces.menu.custom.StoneFurnaceMenu;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -20,6 +21,8 @@ public class FFMenuTypes {
     public static final DeferredHolder<MenuType<?>, MenuType<StoneFurnaceMenu>> STONE_FURNACE_MENU = MENUS.register("stone_furnace_menu", () -> new MenuType<>(StoneFurnaceMenu::new, FeatureFlags.DEFAULT_FLAGS));
 
     public static final DeferredHolder<MenuType<?>, MenuType<SpongeDryerMenu>> SPONGE_DRYER_MENU = MENUS.register("sponge_dryer_menu", () -> new MenuType<>(SpongeDryerMenu::new, FeatureFlags.DEFAULT_FLAGS));
+
+    public static final DeferredHolder<MenuType<?>, MenuType<GlassFurnaceMenu>> GLASS_FURNACE_MENU = MENUS.register("glass_furnace_menu", () -> new MenuType<>(GlassFurnaceMenu::new, FeatureFlags.DEFAULT_FLAGS));
 
 
     public static void register(IEventBus eventBus) {

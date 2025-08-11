@@ -18,6 +18,7 @@ public class FFRecipeSerializers {
 
     public static final DeferredHolder<RecipeSerializer<?>, RecipeSerializer<SpongeDryerRecipe>> SPONGE_DRYER_RECIPE_SERIALIZER = SERIALIZERS.register("sponge_dryer_recipe", () -> new AbstractCookingRecipe.Serializer<>(SpongeDryerRecipe::new, 100) {});
 
+    public static final DeferredHolder<RecipeSerializer<?>, RecipeSerializer<GlassFurnaceRecipe>> GLASS_FURNACE_RECIPE_SERIALIZER = SERIALIZERS.register("glass_furnace_recipe", () -> new AbstractCookingRecipe.Serializer<>(GlassFurnaceRecipe::new, 100) {});
 
     public static void register(IEventBus eventBus) {
         SERIALIZERS.register(eventBus);

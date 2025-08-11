@@ -1,10 +1,7 @@
 package de.funkyturtle.fancyfurnaces.block;
 
 import de.funkyturtle.fancyfurnaces.FancyFurnaces;
-import de.funkyturtle.fancyfurnaces.block.custom.BrickFurnaceBlock;
-import de.funkyturtle.fancyfurnaces.block.custom.FFFurnaceBlock;
-import de.funkyturtle.fancyfurnaces.block.custom.SpongeDryerBlock;
-import de.funkyturtle.fancyfurnaces.block.custom.StoneFurnaceBlock;
+import de.funkyturtle.fancyfurnaces.block.custom.*;
 import de.funkyturtle.fancyfurnaces.item.FFItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
@@ -28,6 +25,8 @@ public class FFBlocks {
     public static final DeferredBlock<StoneFurnaceBlock> STONE_FURNACE = registerBlock("stone_furnace", () -> new StoneFurnaceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BLAST_FURNACE).setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(FancyFurnaces.MOD_ID, "stone_furnace")))));
 
     public static final DeferredBlock<SpongeDryerBlock> SPONGE_DRYER = registerBlock("sponge_dryer", () -> new SpongeDryerBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BLAST_FURNACE).setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(FancyFurnaces.MOD_ID, "sponge_dryer")))));
+
+    public static final DeferredBlock<GlassFurnaceBlock> GLASS_FURNACE = registerBlock("glass_furnace", () -> new GlassFurnaceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BLAST_FURNACE).setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(FancyFurnaces.MOD_ID, "glass_furnace")))));
 
     public static final DeferredBlock<FFFurnaceBlock> BLACKSTONE_FURNACE = registerBlock("blackstone_furnace", () -> new FFFurnaceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.FURNACE).setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(FancyFurnaces.MOD_ID, "blackstone_furnace")))));
 

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:furnace"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "fancyfurnaces:glass_furnace"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bricks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "fancyfurnaces:glass_furnace"
+    ]
+  }
+}
