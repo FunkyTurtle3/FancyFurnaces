@@ -29,6 +29,9 @@ public class FFBlockEntity {
     public static final Supplier<BlockEntityType<GlassFurnaceBlockEntity>> GLASS_FURNACE_TYPE =
             BLOCK_ENTITY_TYPES.register("glass_furnace_type", () -> new BlockEntityType<>(GlassFurnaceBlockEntity::new, Set.of(FFBlocks.GLASS_FURNACE.get())));
 
+    public static final Supplier<BlockEntityType<WoodFurnaceBlockEntity>> WOOD_FURNACE_TYPE =
+            BLOCK_ENTITY_TYPES.register("wood_furnace_type", () -> new BlockEntityType<>(WoodFurnaceBlockEntity::new, Set.of(FFBlocks.WOOD_FURNACE.get())));
+
     public static void register(IEventBus eventBus) {
         BLOCK_ENTITY_TYPES.register(eventBus);
     }

@@ -1,10 +1,7 @@
 package de.funkyturtle.fancyfurnaces.recipe;
 
 import de.funkyturtle.fancyfurnaces.FancyFurnaces;
-import de.funkyturtle.fancyfurnaces.recipe.custom.BrickFurnaceRecipe;
-import de.funkyturtle.fancyfurnaces.recipe.custom.GlassFurnaceRecipe;
-import de.funkyturtle.fancyfurnaces.recipe.custom.SpongeDryerRecipe;
-import de.funkyturtle.fancyfurnaces.recipe.custom.StoneFurnaceRecipe;
+import de.funkyturtle.fancyfurnaces.recipe.custom.*;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.crafting.RecipeType;
 import net.neoforged.bus.api.IEventBus;
@@ -43,6 +40,14 @@ public class FFRecipeTypes {
                 @Override
                 public String toString() {
                     return "glass_furnace_recipe";
+                }
+            });
+
+    public static final DeferredHolder<RecipeType<?>, RecipeType<WoodFurnaceRecipe>> WOOD_FURNACE_RECIPE = RECIPE_TYPES.register("wood_furnace_recipe",
+            () -> new RecipeType<>() {
+                @Override
+                public String toString() {
+                    return "wood_furnace_recipe";
                 }
             });
 

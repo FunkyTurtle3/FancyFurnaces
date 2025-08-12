@@ -21,6 +21,9 @@ public class FFRecipeBookCategories {
 
     public static final Supplier<RecipeBookCategory> GLASS_FURNACE_BLOCKS_CATEGORY = RECIPE_BOOK_CATEGORY.register("glass_furnace_blocks_category", RecipeBookCategory::new);
 
+    public static final Supplier<RecipeBookCategory> WOOD_FURNACE_MISC_CATEGORY = RECIPE_BOOK_CATEGORY.register("wood_furnace_misc_category", RecipeBookCategory::new);
+    public static final Supplier<RecipeBookCategory> WOOD_FURNACE_BLOCKS_CATEGORY = RECIPE_BOOK_CATEGORY.register("wood_furnace_blocks_category", RecipeBookCategory::new);
+
 
     public static void register(IEventBus eventBus) {
         RECIPE_BOOK_CATEGORY.register(eventBus);

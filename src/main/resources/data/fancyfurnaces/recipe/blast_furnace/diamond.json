@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "fancyfurnaces:diamond_smeltable"
+  },
+  "result": "minecraft:diamond",
+  "experience": 0.15,
+  "cookingtime": 500
+}

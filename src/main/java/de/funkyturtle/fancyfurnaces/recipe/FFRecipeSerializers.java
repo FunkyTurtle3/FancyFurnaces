@@ -20,6 +20,9 @@ public class FFRecipeSerializers {
 
     public static final DeferredHolder<RecipeSerializer<?>, RecipeSerializer<GlassFurnaceRecipe>> GLASS_FURNACE_RECIPE_SERIALIZER = SERIALIZERS.register("glass_furnace_recipe", () -> new AbstractCookingRecipe.Serializer<>(GlassFurnaceRecipe::new, 100) {});
 
+    public static final DeferredHolder<RecipeSerializer<?>, RecipeSerializer<WoodFurnaceRecipe>> WOOD_FURNACE_RECIPE_SERIALIZER = SERIALIZERS.register("wood_furnace_recipe", () -> new AbstractCookingRecipe.Serializer<>(WoodFurnaceRecipe::new, 100) {});
+
+
     public static void register(IEventBus eventBus) {
         SERIALIZERS.register(eventBus);
     }

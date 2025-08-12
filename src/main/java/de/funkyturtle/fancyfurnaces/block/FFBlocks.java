@@ -28,6 +28,8 @@ public class FFBlocks {
 
     public static final DeferredBlock<GlassFurnaceBlock> GLASS_FURNACE = registerBlock("glass_furnace", () -> new GlassFurnaceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BLAST_FURNACE).setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(FancyFurnaces.MOD_ID, "glass_furnace")))));
 
+    public static final DeferredBlock<WoodFurnaceBlock> WOOD_FURNACE = registerBlock("wood_furnace", () -> new WoodFurnaceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BLAST_FURNACE).setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(FancyFurnaces.MOD_ID, "wood_furnace")))));
+
     public static final DeferredBlock<FFFurnaceBlock> BLACKSTONE_FURNACE = registerBlock("blackstone_furnace", () -> new FFFurnaceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.FURNACE).setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(FancyFurnaces.MOD_ID, "blackstone_furnace")))));
 
     public static final DeferredBlock<FFFurnaceBlock> GRANITE_FURNACE = registerBlock("granite_furnace", () -> new FFFurnaceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.FURNACE).setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(FancyFurnaces.MOD_ID, "granite_furnace")))));
